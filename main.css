@@ -989,9 +989,11 @@ footer .under .list li a {
   }
 }
 
-footer .aa {
-  display: block;
-  max-width: 381px;
+@media (max-width: 381px) {
+  footer .aa {
+    display: block;
+    max-width: 381px;
+  }
 }
 
 @media (max-width: 381px) {
@@ -1000,8 +1002,10 @@ footer .aa {
   }
 }
 
-footer .under {
-  max-width: 381px;
-  display: block;
+@media (max-width: 381px) {
+  footer .under {
+    max-width: 381px;
+    display: block;
+  }
 }
 /*# sourceMappingURL=main.css.map */

@@ -821,8 +821,10 @@ main{
         }
     }
     .aa{
-        display: block;
-        max-width: 381px;
+        @include ip {
+            display: block;
+            max-width: 381px;
+        }
         img{
             @include ip{
                 display: none;
@@ -831,7 +833,9 @@ main{
 
     }
     .under{
-        max-width: 381px;
-        display: block;
+        @include ip {
+            max-width: 381px;
+            display: block;
+        }
     }
 }
